@@ -1,0 +1,141 @@
+
+.main-container{
+    margin-top: 83px;
+
+}
+
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    /*
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;  
+    */
+    /*   border-top: 4px solid #158D7E; */
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;        
+        /*    border-top: 4px solid #158D7E; */
+    }
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 0px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.navbar-toggle {
+    margin-top: 26px;
+    margin-bottom: 28px;
+    background-color: #080606;
+
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #710100;
+}
+
+
+.custom-logo{
+    height: 75px;
+    width: auto;
+    margin-left: 0px;
+    padding: 14px 0px 0px 18px;
+
+}
+
+.custom-logo-brand{
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a {
+
+    /*
+    color: #fff;
+    background-color: #66cc66;
+    
+    */
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: #66cc66;
+    border: 0px solid white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    /* color: #f3e8e8;
+    */
+}
+
+
+
+.button {
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px 20px auto 5px;
+}
+
+.navbar-nav>li {
+    margin-top: 14px;
+}
+.navbar-nav {
+    margin-right: 5px;
+
+}  
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+
+}
+
+.button:hover {
+    background-color: #710100;
+
+}
+
+.button:hover span {
+    padding-right: 14px;
+
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
